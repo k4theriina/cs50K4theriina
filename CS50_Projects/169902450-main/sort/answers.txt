@@ -1,0 +1,16 @@
+sort1 uses: Bubble sort
+
+How do you know?: sort1 takes the longest when sorting the reversed list. This is perhaps because each single number
+must get moved up to the top, taking the longest time.
+
+sort2 uses: Merge Sort
+
+How do you know?: When timing the run-time of sort 2 on the reverse50000.txt, it ran for a real time of 0.344s,
+as compared to the other sort times of sort 1 and sort 3, 4.939 sec and 2.945 sec respectively. When demonstrated in the
+lecture, merge sorting had a considerable short run time as compared to selection sorting and bubble sorting.
+
+sort3 uses: Selection sort
+
+How do you know?: sort3 takes the second longest when running on reverse50000.txt. Because of this, I think it is safe to
+assume that it is not as efficient as sort2, the merge sort, but not as slow as the bubble sort in this case because
+sort1 would have to bubble to the top throughout each individual number.
